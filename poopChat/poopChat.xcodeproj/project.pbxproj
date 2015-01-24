@@ -14,6 +14,7 @@
 		760C78EB1A745FFD00AE2511 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 760C78EA1A745FFD00AE2511 /* Images.xcassets */; };
 		760C78EE1A745FFD00AE2511 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 760C78EC1A745FFD00AE2511 /* LaunchScreen.xib */; };
 		760C78FA1A745FFD00AE2511 /* poopChatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760C78F91A745FFD00AE2511 /* poopChatTests.swift */; };
+		760C790C1A74646200AE2511 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 760C790B1A74646200AE2511 /* Home.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		760C78F31A745FFD00AE2511 /* poopChatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = poopChatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		760C78F81A745FFD00AE2511 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		760C78F91A745FFD00AE2511 /* poopChatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = poopChatTests.swift; sourceTree = "<group>"; };
+		760C790B1A74646200AE2511 /* Home.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,12 +81,13 @@
 		760C78DD1A745FFD00AE2511 /* poopChat */ = {
 			isa = PBXGroup;
 			children = (
+				760C79031A74632600AE2511 /* Common */,
+				760C79041A74633100AE2511 /* Modules */,
 				760C78E01A745FFD00AE2511 /* AppDelegate.swift */,
 				760C78E51A745FFD00AE2511 /* ViewController.swift */,
 				760C78E71A745FFD00AE2511 /* Main.storyboard */,
 				760C78EA1A745FFD00AE2511 /* Images.xcassets */,
 				760C78EC1A745FFD00AE2511 /* LaunchScreen.xib */,
-				760C78E21A745FFD00AE2511 /* poopChat.xcdatamodeld */,
 				760C78DE1A745FFD00AE2511 /* Supporting Files */,
 			);
 			path = poopChat;
@@ -113,6 +116,46 @@
 				760C78F81A745FFD00AE2511 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		760C79031A74632600AE2511 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				760C79081A7463CD00AE2511 /* Models */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		760C79041A74633100AE2511 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				760C79091A74643500AE2511 /* Home */,
+			);
+			name = Modules;
+			sourceTree = "<group>";
+		};
+		760C79081A7463CD00AE2511 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				760C78E21A745FFD00AE2511 /* poopChat.xcdatamodeld */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		760C79091A74643500AE2511 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				760C790B1A74646200AE2511 /* Home.storyboard */,
+				760C790A1A74644500AE2511 /* ViewControllers */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
+		760C790A1A74644500AE2511 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -198,6 +241,7 @@
 				760C78E91A745FFD00AE2511 /* Main.storyboard in Resources */,
 				760C78EE1A745FFD00AE2511 /* LaunchScreen.xib in Resources */,
 				760C78EB1A745FFD00AE2511 /* Images.xcassets in Resources */,
+				760C790C1A74646200AE2511 /* Home.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
