@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>09A357EB-1815-4F39-A443-EE3983CAC085</string>
+	<key>IDESourceControlProjectName</key>
+	<string>poopChat</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>F3C8B714C536A153E354ABF1D329B55163B0EB32</key>
+		<string>github.com:soelgary/Muk.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>poopChat/poopChat.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>F3C8B714C536A153E354ABF1D329B55163B0EB32</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:soelgary/Muk.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>F3C8B714C536A153E354ABF1D329B55163B0EB32</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>F3C8B714C536A153E354ABF1D329B55163B0EB32</string>
+			<key>IDESourceControlWCCName</key>
+			<string>poopChat</string>
+		</dict>
+	</array>
+</dict>
+</plist>
