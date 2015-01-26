@@ -52,4 +52,5 @@ Thumbs.db
 
 # Folders #
 ###########
-poopChatt.xcworkspace/
+poopChat.xcworkspace/
+poopChat/poopChat.xcodeproj/xcuserdata/*

@@ -9,12 +9,17 @@
 /* Begin PBXBuildFile section */
 		760C78E11A745FFD00AE2511 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760C78E01A745FFD00AE2511 /* AppDelegate.swift */; };
 		760C78E41A745FFD00AE2511 /* poopChat.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 760C78E21A745FFD00AE2511 /* poopChat.xcdatamodeld */; };
-		760C78E61A745FFD00AE2511 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760C78E51A745FFD00AE2511 /* ViewController.swift */; };
 		760C78E91A745FFD00AE2511 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 760C78E71A745FFD00AE2511 /* Main.storyboard */; };
 		760C78EB1A745FFD00AE2511 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 760C78EA1A745FFD00AE2511 /* Images.xcassets */; };
 		760C78EE1A745FFD00AE2511 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 760C78EC1A745FFD00AE2511 /* LaunchScreen.xib */; };
 		760C78FA1A745FFD00AE2511 /* poopChatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760C78F91A745FFD00AE2511 /* poopChatTests.swift */; };
 		760C790C1A74646200AE2511 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 760C790B1A74646200AE2511 /* Home.storyboard */; };
+		760C790E1A7465F700AE2511 /* MessengerTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760C790D1A7465F700AE2511 /* MessengerTableViewController.swift */; };
+		760C79101A7467E600AE2511 /* AppDependencies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760C790F1A7467E600AE2511 /* AppDependencies.swift */; };
+		760C79121A74683900AE2511 /* HomeWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760C79111A74683900AE2511 /* HomeWireframe.swift */; };
+		760C79141A74684200AE2511 /* HomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760C79131A74684200AE2511 /* HomePresenter.swift */; };
+		760C79161A74684E00AE2511 /* HomeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760C79151A74684E00AE2511 /* HomeInteractor.swift */; };
+		760C79181A74693700AE2511 /* RootWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760C79171A74693700AE2511 /* RootWireframe.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,7 +37,6 @@
 		760C78DF1A745FFD00AE2511 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		760C78E01A745FFD00AE2511 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		760C78E31A745FFD00AE2511 /* poopChat.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = poopChat.xcdatamodel; sourceTree = "<group>"; };
-		760C78E51A745FFD00AE2511 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		760C78E81A745FFD00AE2511 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		760C78EA1A745FFD00AE2511 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		760C78ED1A745FFD00AE2511 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -40,6 +44,12 @@
 		760C78F81A745FFD00AE2511 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		760C78F91A745FFD00AE2511 /* poopChatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = poopChatTests.swift; sourceTree = "<group>"; };
 		760C790B1A74646200AE2511 /* Home.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		760C790D1A7465F700AE2511 /* MessengerTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessengerTableViewController.swift; sourceTree = "<group>"; };
+		760C790F1A7467E600AE2511 /* AppDependencies.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDependencies.swift; sourceTree = "<group>"; };
+		760C79111A74683900AE2511 /* HomeWireframe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeWireframe.swift; sourceTree = "<group>"; };
+		760C79131A74684200AE2511 /* HomePresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomePresenter.swift; sourceTree = "<group>"; };
+		760C79151A74684E00AE2511 /* HomeInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeInteractor.swift; sourceTree = "<group>"; };
+		760C79171A74693700AE2511 /* RootWireframe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootWireframe.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,10 +91,10 @@
 		760C78DD1A745FFD00AE2511 /* poopChat */ = {
 			isa = PBXGroup;
 			children = (
+				760C78E01A745FFD00AE2511 /* AppDelegate.swift */,
+				760C790F1A7467E600AE2511 /* AppDependencies.swift */,
 				760C79031A74632600AE2511 /* Common */,
 				760C79041A74633100AE2511 /* Modules */,
-				760C78E01A745FFD00AE2511 /* AppDelegate.swift */,
-				760C78E51A745FFD00AE2511 /* ViewController.swift */,
 				760C78E71A745FFD00AE2511 /* Main.storyboard */,
 				760C78EA1A745FFD00AE2511 /* Images.xcassets */,
 				760C78EC1A745FFD00AE2511 /* LaunchScreen.xib */,
@@ -122,6 +132,7 @@
 			isa = PBXGroup;
 			children = (
 				760C79081A7463CD00AE2511 /* Models */,
+				760C79171A74693700AE2511 /* RootWireframe.swift */,
 			);
 			name = Common;
 			sourceTree = "<group>";
@@ -147,6 +158,9 @@
 			children = (
 				760C790B1A74646200AE2511 /* Home.storyboard */,
 				760C790A1A74644500AE2511 /* ViewControllers */,
+				760C79111A74683900AE2511 /* HomeWireframe.swift */,
+				760C79131A74684200AE2511 /* HomePresenter.swift */,
+				760C79151A74684E00AE2511 /* HomeInteractor.swift */,
 			);
 			name = Home;
 			sourceTree = "<group>";
@@ -154,6 +168,7 @@
 		760C790A1A74644500AE2511 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				760C790D1A7465F700AE2511 /* MessengerTableViewController.swift */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -259,9 +274,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				760C78E61A745FFD00AE2511 /* ViewController.swift in Sources */,
+				760C79101A7467E600AE2511 /* AppDependencies.swift in Sources */,
+				760C790E1A7465F700AE2511 /* MessengerTableViewController.swift in Sources */,
 				760C78E11A745FFD00AE2511 /* AppDelegate.swift in Sources */,
+				760C79141A74684200AE2511 /* HomePresenter.swift in Sources */,
+				760C79181A74693700AE2511 /* RootWireframe.swift in Sources */,
+				760C79121A74683900AE2511 /* HomeWireframe.swift in Sources */,
 				760C78E41A745FFD00AE2511 /* poopChat.xcdatamodeld in Sources */,
+				760C79161A74684E00AE2511 /* HomeInteractor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
